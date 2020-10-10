@@ -1,4 +1,6 @@
 class HomeController < ApplicationController
+  protect_from_forgery
+
   def index
     @contact = Home.new(params[:home])
   end
