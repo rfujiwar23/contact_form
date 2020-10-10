@@ -1,15 +1,23 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-@import "bootstrap-sprockets";
+
 @import "bootstrap";
 
-body {
-  background-color: black;
-  color: white;
-}
+// body {
+//   background-image: linear-gradient(to right bottom, #0a4090, #0067ac, #008cbf, #30b0cb, #76d2d6);
+//   color: white;
+// }
 .contact-form-text-area {
   color: black;
+}
+
+// .area {
+//   background:pink;
+// }
+
+.contact_area {
+  background:red;
 }
 .hidden { display: none; }
 .alert-error {

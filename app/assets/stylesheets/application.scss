@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+
+ @import "bootstrap";
+
+body {
+  background-image: linear-gradient(to right bottom, #0a4090, #0067ac, #008cbf, #30b0cb, #76d2d6);
+  color: white;
+  height: 100vh;
+}
+
+.navbar { background-color: #484848; }
+.navbar .navbar-nav .nav-link { color: #fff; }
+.navbar .navbar-nav .nav-link:hover { color: #fbc531; }
+.navbar .navbar-nav .active > .nav-link { color: #fbc531; }
