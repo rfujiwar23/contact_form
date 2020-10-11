@@ -25,6 +25,8 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 gem 'mail_form'
 
+gem 'font-awesome-sass'
+
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Use Active Storage variant
