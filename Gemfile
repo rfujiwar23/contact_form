@@ -27,6 +27,8 @@ gem 'mail_form'
 
 gem 'font-awesome-sass'
 
+gem 'devise'
+
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Use Active Storage variant
